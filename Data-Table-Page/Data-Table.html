@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demonstration of semantic HTML5 data tables, structural sections, captions, and cell spanning.">
+    <title>Data Tables Demonstration</title>
+</head>
+
+<body>
+    <header>
+        <h1>Data Visualization Tables</h1>
+        <p>This page demonstrates standard HTML5 data tables using structured captions, headers, bodies, footers, and cell spanning.</p>
+
+    </header>
+    <main>
+        <section>
+            <h2>Students Academic Performance</h2>
+            <table>
+                <caption><strong>Table 1: Terminal Assessment Scores for Web Development Students</strong></caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Students</th>
+                        <th scope="col">HTML</th>
+                        <th scope="col">CSS</th>
+                        <th scope="col">JAVASCRIPT</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Ada</th>
+                        <td>82</td>
+                        <td>71</td>
+                        <td>69</td>
+                        <td>222</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Musa</th>
+                        <td>75</td>
+                        <td>81</td>
+                        <td>74</td>
+                        <td>230</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Grace</th>
+                        <td>91</td>
+                        <td>88</td>
+                        <td>80</td>
+                        <td>259</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row">Class Average</th>
+                        <td>82.6</td>
+                        <td>80.0</td>
+                        <td>74.3</td>
+                        <td>237.0</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>Weekly Class Timetable</h2>
+            <table>
+                <caption><strong>Table 2: Weekly Web Architecture Lecture &amp; Lab Schedule</strong></caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">09:00 AM - 11:00 AM</th>
+                        <th scope="col">11:00 AM - 01:00 AM</th>
+                        <th scope="col">02:00 PM - 04:00 PM</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Monday</th>
+                        <td>HTML Metadata &amp; Semantics</td>
+                        <td>CSS Layout Systems</td>
+                        <td>Lab: Semantic Web Architecture</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tuesday</th>
+                        <td>Javascript Fundamentals</td>
+                        <td>DOM Manipulation</td>
+                        <td>Lab: Event Handling</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wednesday</th>
+                        <td colspan="2">Full-Day Intensive:<br> Web Accessibility &amp; <br>ARIA Standards</td>
+                        <td>Q&AMP;A &AMP; Review</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Thursday</th>
+                        <td>HTTP &AMP; Network Analysis</td>
+                        <td>Lab: Network Inspection</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Friday</th>
+                        <td colspan="2">Pair Programming &amp; <br>Project Reviews</td>
+                        <td>Weekly Competency Assessment</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Note: All afternoon labs take place in Room 304. Break hours are observed from 01:00 PM to 02:00 PM daily.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <em> Tech Prophet Mentorship. All right reserved.</em></p>
+    </footer>
+</body>
+</html>
